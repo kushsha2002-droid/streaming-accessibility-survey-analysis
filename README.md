@@ -19,10 +19,6 @@ An end-to-end analysis of a 337-response survey on how accessible and usable eig
 - **Independent volume control is the weakest aspect overall,** below the neutral midpoint for five of the eight services.
 - **The most common request is standardization:** one consistent way to find and turn on audio description everywhere.
 
-![Overall ranking chart](images/overall_ranking.png)
-
-*Mean overall rating on a 1-5 scale, n = 337. The horizontal axis starts at 2.6 to make differences between services visible.*
-
 ## Approach
 1. **Pulled summary data** from the SurveyMonkey API for ratings and closed-ended questions, and used it as the source of truth for every chart and table.
 2. **Parsed open-ended responses** from per-question PDF exports with Python (`pdfplumber`), stripping page furniture and checking each question's response count against the export's own total.
