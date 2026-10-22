@@ -8,16 +8,20 @@ An end-to-end analysis of a 337-response survey on how accessible and usable eig
 
 ## Overview
 - **Goal:** Compare streaming services on accessibility and usability and find the biggest pain points for users, with a focus on audio description and other assistive features.
-- **Data:** A SurveyMonkey survey with 337 responses and 41 questions (rating matrices, closed-ended questions and 19 open-ended text questions).
+- **Data:** A SurveyMonkey survey with 337 responses and 41 questions (rating matrices, closed-ended questions and 18 open-ended comment questions).
 - **Services compared:** Amazon Prime, Apple TV+, Disney+, HBO Max, Hulu, Netflix, Paramount+ and Peacock. A ninth service, YouTube TV, was written up in a separate mini report.
 - **Deliverable:** A Word report (111 pages in the full version, 76 pages in the public version without verbatim comments) with 71 charts, per-question comment themes, an overall ranking and 28 pairwise service comparisons, plus a mini report with recommendations for each platform.
 
 ## Key findings
 - **Apple TV+ ranks first (3.84) and Paramount+ last (3.17).** Rankings were identical across two survey waves.
 - **Netflix (3.61) and HBO Max (3.58) are within 0.03 of each other,** close enough that one more wave could swap them.
-- **Audio description activation is the biggest pain point.** It had the widest gap of any aspect measured (1.20 points between the best and worst service) and was the most-mentioned theme in open-ended comments across every service.
-- **Independent volume control is the weakest aspect overall,** below the neutral midpoint for five of the eight services.
+- **Audio description activation is the biggest pain point.** It had the widest gap of any aspect measured (1.20 points between the best and worst service) and audio description discovery and activation dominate the open-ended complaints.
+- **Independent volume control is the weakest aspect overall:** it is the lowest-scoring aspect for six of the eight services and falls below the neutral midpoint for four.
 - **The most common request is standardization:** one consistent way to find and turn on audio description everywhere.
+
+![Overall ranking chart](images/overall_ranking.png)
+
+*Mean overall rating on a 1-5 scale, n = 337. The horizontal axis starts at 2.6 to make differences between services visible.*
 
 ## Approach
 1. **Pulled summary data** from the SurveyMonkey API for ratings and closed-ended questions, and used it as the source of truth for every chart and table.
@@ -35,4 +39,4 @@ An end-to-end analysis of a 337-response survey on how accessible and usable eig
 Survey data analysis, API data retrieval, text extraction and cleaning with Python, thematic coding of open-ended responses, descriptive statistics and ranking, data visualization, data quality verification, and report writing for non-technical readers.
 
 ## Tools
-SurveyMonkey (API), Python (`pdfplumber`, `matplotlib`), Microsoft Word
+SurveyMonkey (API), Python (`pdfplumber`), Microsoft Word
