@@ -13,7 +13,7 @@ An end-to-end analysis of a 337-response survey on how accessible and usable eig
 - **Deliverable:** A Word report (111 pages in the full version, 76 pages in the public version without verbatim comments) with 71 charts, per-question comment themes, an overall ranking and 28 pairwise service comparisons, plus a mini report with recommendations for each platform.
 
 ## Key findings
-- **Apple TV+ ranks first (3.84) and Paramount+ last (3.17).** Rankings were identical across two survey waves.
+- **Apple TV+ ranks first (3.84) and Paramount+ last (3.17).**
 - **Netflix (3.61) and HBO Max (3.58) are within 0.03 of each other,** close enough that one more wave could swap them.
 - **Audio description activation is the biggest pain point.** It had the widest gap of any aspect measured (1.20 points between the best and worst service) and audio description discovery and activation dominate the open-ended complaints.
 - **Independent volume control is the weakest aspect overall:** it is the lowest-scoring aspect for six of the eight services and falls below the neutral midpoint for four.
@@ -32,7 +32,7 @@ An end-to-end analysis of a 337-response survey on how accessible and usable eig
 6. **Verified before publishing:** 41 questions, 71 charts, all 72 rating means present, 28 pairwise comparisons, and every comment count matching its source data. This caught and fixed a recoding bug that had silently labeled Australia and Austria as United States.
 
 ## Judgment calls
-- **Sentiment scoring is framing-based,** which pushes percentages higher than a plain keyword count (one question moved from 30% negative under keyword counting to 98% under framing-based scoring). Both methods are described in the report's method section.
+- **Sentiment scoring is framing-based:** on a "most frustrating challenge" question, a response that names a problem counts as negative even without negative wording. The method is described in the report's method section.
 - **Country recoding** treats Puerto Rico and sub-national answers as US.
 
 ## Skills demonstrated
