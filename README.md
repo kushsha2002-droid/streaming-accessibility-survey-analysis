@@ -39,4 +39,4 @@ An end-to-end analysis of a 337-response survey on how accessible and usable eig
 Survey data analysis, API data retrieval, text extraction and cleaning with Python, thematic coding of open-ended responses, descriptive statistics and ranking, data visualization, data quality verification, and report writing for non-technical readers.
 
 ## Tools
-SurveyMonkey (API), Python (`pdfplumber`), Microsoft Word
+SurveyMonkey, Microsoft Word, Microsoft Excel
