@@ -4,7 +4,7 @@ An end-to-end analysis of a 337-response survey on how accessible and usable eig
 
 > **Privacy note:** This repo contains aggregate results only. The public report omits all verbatim respondent comments (about 1,200 responses across 18 open-ended questions); theme counts and sentiment are kept. No survey exports or respondent details are included.
 
-**Read the public report:** [Streaming_Accessibility_Survey_Report_Public.docx](Streaming_Accessibility_Survey_Report_Public.docx)
+**Read the public report:** [Download the Word report (.docx, 76 pages)](https://github.com/kushsha2002-droid/streaming-accessibility-survey-analysis/raw/main/Streaming_Accessibility_Survey_Report_Public.docx)
 
 ## Overview
 - **Goal:** Compare streaming services on accessibility and usability and find the biggest pain points for users, with a focus on audio description and other assistive features.
