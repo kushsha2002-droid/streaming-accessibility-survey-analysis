@@ -24,19 +24,19 @@ An end-to-end analysis of a 337-response survey on how accessible and usable eig
 *Mean overall rating on a 1-5 scale, n = 337. The horizontal axis starts at 2.6 to make differences between services visible.*
 
 ## Approach
-1. **Pulled summary data** from the SurveyMonkey API for ratings and closed-ended questions, and used it as the source of truth for every chart and table.
-2. **Parsed open-ended responses** from per-question PDF exports with Python (`pdfplumber`), stripping page furniture and checking each question's response count against the export's own total.
+1. **Pulled summary data** from SurveyMonkey for ratings and closed-ended questions, and used it as the source of truth for every chart and table.
+2. **Compiled open-ended responses** from per-question SurveyMonkey exports and checked each question's response count against the export's own total.
 3. **Applied a documented filtering rule:** only literal "N/A" answers are excluded; short substantive answers such as "None" or "nothing" are kept and counted.
 4. **Coded open-text answers into themes** (for example audio description activation, volume control, navigation) and scored sentiment using each question's framing, so a response that names a problem on a "most frustrating challenge" question counts as negative.
 5. **Recoded open-text country answers** into US / non-US, with state and city answers counted as US.
-6. **Verified before publishing:** 41 questions, 71 charts, all 72 rating means present, 28 pairwise comparisons, and every comment count matching its source data. This caught and fixed a recoding bug that had silently labeled Australia and Austria as United States.
+6. **Verified before publishing:** 41 questions, 71 charts, all 72 rating means present, 28 pairwise comparisons, and every comment count matching its source data.
 
 ## Judgment calls
 - **Sentiment scoring is framing-based:** on a "most frustrating challenge" question, a response that names a problem counts as negative even without negative wording. The method is described in the report's method section.
 - **Country recoding** treats Puerto Rico and sub-national answers as US.
 
 ## Skills demonstrated
-Survey data analysis, API data retrieval, text extraction and cleaning with Python, thematic coding of open-ended responses, descriptive statistics and ranking, data visualization, data quality verification, and report writing for non-technical readers.
+Survey data analysis, thematic coding of open-ended responses, descriptive statistics and ranking, data visualization, data quality verification, and report writing for non-technical readers.
 
 ## Tools
 SurveyMonkey, Microsoft Word, Microsoft Excel
