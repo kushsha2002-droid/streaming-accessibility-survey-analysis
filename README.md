@@ -30,6 +30,7 @@ An end-to-end analysis of a 337-response survey on how accessible and usable eig
 4. **Coded open-text answers into themes** (for example audio description activation, volume control, navigation) and scored sentiment using each question's framing, so a response that names a problem on a "most frustrating challenge" question counts as negative.
 5. **Recoded open-text country answers** into US / non-US, with state and city answers counted as US.
 6. **Verified before publishing:** 41 questions, 71 charts, all 72 rating means present, 28 pairwise comparisons, and every comment count matching its source data.
+7. **Refreshed with AI assistance:** I defined the themes and sentiment rules and used AI assistance to apply them to the latest survey data.
 
 ## Judgment calls
 - **Sentiment scoring is framing-based:** on a "most frustrating challenge" question, a response that names a problem counts as negative even without negative wording. The method is described in the report's method section.
